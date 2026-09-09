@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://gal-tax.com/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/index.html"/>
+  </url>
+  <url>
+    <loc>https://gal-tax.com/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/services.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/services.html"/>
+  </url>
+  <url>
+    <loc>https://gal-tax.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/about.html"/>
+  </url>
+  <url>
+    <loc>https://gal-tax.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/contact.html"/>
+  </url>
+  <url>
+    <loc>https://gal-tax.com/articles/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/index.html"/>
+  </url>
+
+  <url>
+    <loc>https://gal-tax.com/en/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/index.html"/>
+  </url>
+  <url>
+    <loc>https://gal-tax.com/en/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/services.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/services.html"/>
+  </url>
+  <url>
+    <loc>https://gal-tax.com/en/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/about.html"/>
+  </url>
+  <url>
+    <loc>https://gal-tax.com/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/contact.html"/>
+  </url>
+  <url>
+    <loc>https://gal-tax.com/en/articles/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/index.html"/>
+  </url>
+
+</urlset>
