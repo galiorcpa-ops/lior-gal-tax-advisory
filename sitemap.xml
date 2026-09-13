@@ -4,54 +4,76 @@
 
   <url>
     <loc>https://gal-tax.com/index.html</loc>
+    <lastmod>2026-09-13</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/index.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/index.html"/>
   </url>
   <url>
     <loc>https://gal-tax.com/services.html</loc>
+    <lastmod>2026-09-13</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/services.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/services.html"/>
   </url>
   <url>
     <loc>https://gal-tax.com/about.html</loc>
+    <lastmod>2026-09-13</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/about.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/about.html"/>
   </url>
   <url>
     <loc>https://gal-tax.com/contact.html</loc>
+    <lastmod>2026-09-13</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/contact.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/contact.html"/>
   </url>
   <url>
     <loc>https://gal-tax.com/articles/index.html</loc>
+    <lastmod>2026-09-13</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/index.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/index.html"/>
+  </url>
+  <url>
+    <loc>https://gal-tax.com/articles/הערכות-שווי-בשינויי-מבנה.html</loc>
+    <lastmod>2026-09-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/הערכות-שווי-בשינויי-מבנה.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/valuations-in-business-restructuring.html"/>
   </url>
 
   <url>
     <loc>https://gal-tax.com/en/index.html</loc>
+    <lastmod>2026-09-13</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/index.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/index.html"/>
   </url>
   <url>
     <loc>https://gal-tax.com/en/services.html</loc>
+    <lastmod>2026-09-13</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/services.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/services.html"/>
   </url>
   <url>
     <loc>https://gal-tax.com/en/about.html</loc>
+    <lastmod>2026-09-13</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/about.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/about.html"/>
   </url>
   <url>
     <loc>https://gal-tax.com/en/contact.html</loc>
+    <lastmod>2026-09-13</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/contact.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/contact.html"/>
   </url>
   <url>
     <loc>https://gal-tax.com/en/articles/index.html</loc>
+    <lastmod>2026-09-13</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/index.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/index.html"/>
+  </url>
+  <url>
+    <loc>https://gal-tax.com/en/articles/valuations-in-business-restructuring.html</loc>
+    <lastmod>2026-09-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/הערכות-שווי-בשינויי-מבנה.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/valuations-in-business-restructuring.html"/>
   </url>
 
 </urlset>
