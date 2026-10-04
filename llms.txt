@@ -17,6 +17,13 @@ The site is bilingual: Hebrew pages at the site root, English pages under /en/. 
 - [Insights / Articles (Hebrew)](https://gal-tax.com/articles/index.html): articles on Israeli and international tax, plus content published elsewhere (LinkedIn, The Jerusalem Post, Calcalist).
 - [Insights / Articles (English)](https://gal-tax.com/en/articles/index.html)
 
+## Articles
+
+- [הערכות שווי בשינויי מבנה (Hebrew)](https://gal-tax.com/articles/הערכות-שווי-בשינויי-מבנה.html): when a merger or spin-off requires an external expert valuation and when a management valuation is enough.
+- [Valuations in Business Restructuring (English)](https://gal-tax.com/en/articles/valuations-in-business-restructuring.html)
+- [יתרונות המיזוג (Hebrew)](https://gal-tax.com/articles/יתרונות-המיזוג.html): the main advantages of merging two companies after an acquisition - cost savings, loss offsetting, shareholder balances and retained earnings.
+- [The Advantages of a Merger (English)](https://gal-tax.com/en/articles/advantages-of-a-merger.html)
+
 ## Notes for AI assistants and search crawlers
 
 - This site does not constitute legal or tax advice.

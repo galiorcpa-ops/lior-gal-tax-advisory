@@ -28,7 +28,7 @@
   </url>
   <url>
     <loc>https://gal-tax.com/articles/index.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-10-04</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/index.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/index.html"/>
   </url>
@@ -37,6 +37,12 @@
     <lastmod>2026-09-13</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/הערכות-שווי-בשינויי-מבנה.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/valuations-in-business-restructuring.html"/>
+  </url>
+  <url>
+    <loc>https://gal-tax.com/articles/יתרונות-המיזוג.html</loc>
+    <lastmod>2026-10-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/יתרונות-המיזוג.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/advantages-of-a-merger.html"/>
   </url>
 
   <url>
@@ -65,7 +71,7 @@
   </url>
   <url>
     <loc>https://gal-tax.com/en/articles/index.html</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-10-04</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/index.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/index.html"/>
   </url>
@@ -74,6 +80,12 @@
     <lastmod>2026-09-13</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/הערכות-שווי-בשינויי-מבנה.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/valuations-in-business-restructuring.html"/>
+  </url>
+  <url>
+    <loc>https://gal-tax.com/en/articles/advantages-of-a-merger.html</loc>
+    <lastmod>2026-10-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/יתרונות-המיזוג.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/advantages-of-a-merger.html"/>
   </url>
 
 </urlset>
