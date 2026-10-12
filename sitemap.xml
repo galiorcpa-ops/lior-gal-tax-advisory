@@ -28,7 +28,7 @@
   </url>
   <url>
     <loc>https://gal-tax.com/articles/index.html</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/index.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/index.html"/>
   </url>
@@ -71,7 +71,7 @@
   </url>
   <url>
     <loc>https://gal-tax.com/en/articles/index.html</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/index.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/index.html"/>
   </url>
@@ -88,4 +88,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/advantages-of-a-merger.html"/>
   </url>
 
+  <url>
+    <loc>https://gal-tax.com/articles/שלד-בורסאי.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/שלד-בורסאי.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/shell-company-mergers.html"/>
+  </url>
+  <url>
+    <loc>https://gal-tax.com/en/articles/shell-company-mergers.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/שלד-בורסאי.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/shell-company-mergers.html"/>
+  </url>
 </urlset>

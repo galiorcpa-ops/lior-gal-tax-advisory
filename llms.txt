@@ -23,6 +23,8 @@ The site is bilingual: Hebrew pages at the site root, English pages under /en/. 
 - [Valuations in Business Restructuring (English)](https://gal-tax.com/en/articles/valuations-in-business-restructuring.html)
 - [יתרונות המיזוג (Hebrew)](https://gal-tax.com/articles/יתרונות-המיזוג.html): the main advantages of merging two companies after an acquisition - cost savings, loss offsetting, shareholder balances and retained earnings.
 - [The Advantages of a Merger (English)](https://gal-tax.com/en/articles/advantages-of-a-merger.html)
+- [שלד בורסאי (Hebrew)](https://gal-tax.com/articles/שלד-בורסאי.html): going public through a merger with a listed company or public shell, and the choice between a Section 103K merger and a Section 104H share exchange for deferring the tax.
+- [Shell Company Mergers (English)](https://gal-tax.com/en/articles/shell-company-mergers.html)
 
 ## Notes for AI assistants and search crawlers
 
