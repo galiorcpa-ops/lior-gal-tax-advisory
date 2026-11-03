@@ -27,6 +27,8 @@ The site is bilingual: Hebrew pages at the site root, English pages under /en/. 
 - [Shell Company Mergers (English)](https://gal-tax.com/en/articles/shell-company-mergers.html)
 - [היפוך שרוול (Hebrew)](https://gal-tax.com/articles/היפוך-שרוול.html): points to consider in an Israeli "flip" to a US parent - US CFC/NCTI/PFIC rules, US estate tax, control and management, the green-track ruling's forms and trustee deposit, and employee options.
 - [The Israeli Flip (English)](https://gal-tax.com/en/articles/the-flip.html)
+- [רר"ל בשינויי מבנה (Hebrew)](https://gal-tax.com/articles/רווחים-ראויים-לחלוקה.html): how distributable earnings (Section 94B) are preserved in business restructurings - the guiding principle, where the rules sit (section, regulations or tax ruling only), and the Feller judgment on Section 104A.
+- [Distributable Earnings in Business Restructuring (English)](https://gal-tax.com/en/articles/distributable-earnings-in-restructuring.html)
 
 ## Notes for AI assistants and search crawlers
 
