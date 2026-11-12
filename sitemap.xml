@@ -28,7 +28,7 @@
   </url>
   <url>
     <loc>https://gal-tax.com/articles/index.html</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/index.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/index.html"/>
   </url>
@@ -71,7 +71,7 @@
   </url>
   <url>
     <loc>https://gal-tax.com/en/articles/index.html</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/index.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/index.html"/>
   </url>
@@ -123,5 +123,17 @@
     <lastmod>2026-11-03</lastmod>
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/רווחים-ראויים-לחלוקה.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/distributable-earnings-in-restructuring.html"/>
+  </url>
+  <url>
+    <loc>https://gal-tax.com/articles/ציבור-מעוניין.html</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/ציבור-מעוניין.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/interested-public-arrangement.html"/>
+  </url>
+  <url>
+    <loc>https://gal-tax.com/en/articles/interested-public-arrangement.html</loc>
+    <lastmod>2026-11-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/ציבור-מעוניין.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/interested-public-arrangement.html"/>
   </url>
 </urlset>
