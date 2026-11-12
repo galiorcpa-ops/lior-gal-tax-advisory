@@ -47,6 +47,20 @@
   }
 }
 </script>
+<style>
+  /* Press band: "As featured in" — compact row shown first on the Insights page */
+  .press-band { padding: 0 0 56px; }
+  .press-band .divider { justify-content: center; margin-bottom: 22px; }
+  .press-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  .press-card { display: flex; flex-direction: column; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 22px 20px; transition: box-shadow .2s ease, border-color .2s ease; }
+  .press-card:hover { border-color: #B8B8BE; box-shadow: 0 6px 22px rgba(0,0,0,0.07); }
+  .press-card .outlet { font-size: 19px; font-weight: 700; color: var(--ink); letter-spacing: -0.01em; margin: 0 0 2px; }
+  .press-card .press-date { font-size: 13px; color: var(--gray); margin: 0 0 12px; }
+  .press-card .press-title { font-size: 15px; line-height: 1.45; color: var(--ink); margin: 0; }
+  .articles-section { padding-top: 24px; }
+  @media (max-width: 960px) { .press-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 520px) { .press-grid { grid-template-columns: 1fr; } .press-card { padding: 18px 18px 16px; } }
+</style>
 </head>
 <body>
 
@@ -67,7 +81,7 @@
   </div>
 </header>
 
-<section class="page-banner">
+<section class="page-banner" style="padding-bottom:36px;">
   <div class="wrap">
     <p class="eyebrow">תובנות</p>
     <h1>מאמרים בנושאי מיסוי ישראלי ובינלאומי</h1>
@@ -75,8 +89,47 @@
   </div>
 </section>
 
-<section>
+<section class="press-band">
   <div class="wrap">
+    <div class="divider"><span>פורסם ב-</span></div>
+    <!--
+      PRESS-START
+      לפרסום שפורסם בעיתון, אתר או פלטפורמה אחרת: להוסיף כרטיס בתחילת <div class="press-grid">, לפי הדוגמה:
+      <a class="press-card" href="https://the-source-url.com" target="_blank" rel="noopener">
+        <p class="outlet">שם הכלי</p>
+        <p class="press-date">חודש שנה</p>
+        <p class="press-title" dir="auto">כותרת התוכן</p>
+      </a>
+      PRESS-END
+    -->
+    <div class="press-grid">
+      <a class="press-card" href="https://www.ynet.co.il/capital/article/s1wndig2zx" target="_blank" rel="noopener">
+        <p class="outlet">ynet קפיטל</p>
+        <p class="press-date">אוקטובר 2026</p>
+        <p class="press-title" dir="auto">שוקלים רילוקיישן? אלה הם שיקולי המס וההשקעה שאתם צריכים להכיר</p>
+      </a>
+      <a class="press-card" href="https://www.jpost.com/business-and-innovation/banking-and-finance/article-895055" target="_blank" rel="noopener">
+        <p class="outlet" dir="auto">The Jerusalem Post</p>
+        <p class="press-date">מאי 2026</p>
+        <p class="press-title" dir="auto">How Israel's New Reporting Rules Change the Olim Tax Holiday</p>
+      </a>
+      <a class="press-card" href="https://www.calcalist.co.il/calcalistech/article/hkifu4o5jl" target="_blank" rel="noopener">
+        <p class="outlet">כלכליסט</p>
+        <p class="press-date">פברואר 2025</p>
+        <p class="press-title" dir="auto">הגזר שבגזרות – הזדמנות חדשה לעסקאות במגזר ההייטק?</p>
+      </a>
+      <a class="press-card" href="https://www.linkedin.com/pulse/ua-funding-where-innovative-financing-meets-tax-law-lior-gal-zt48f/" target="_blank" rel="noopener">
+        <p class="outlet" dir="auto">LinkedIn</p>
+        <p class="press-date">יוני 2026</p>
+        <p class="press-title" dir="auto">UA Funding - Where Innovative Financing Meets Tax Law</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="articles-section">
+  <div class="wrap">
+    <div class="divider"><span>מאמרים</span></div>
 
     <!--
       ARTICLES-LIST-START
@@ -95,6 +148,11 @@
       ARTICLES-LIST-END
     -->
     <div id="article-list">
+      <a class="card" href="ציבור-מעוניין.html" style="display:block; margin-bottom:24px;">
+        <p class="eyebrow" style="margin-bottom:8px;">נובמבר 2026</p>
+        <h3>&quot;ציבור מעוניין&quot;: הסדר מס שלא תמצאו בפקודה</h3>
+        <p>בהחלפת מניות לפי סעיף 104ח המס נדחה רק ל-24 ו-48 חודשים, והמניות מופקדות בידי נאמן. הסדר &quot;הציבור המעוניין&quot; דוחה את המס עד המכירה בפועל, בלי נאמן – ולמי אפשר לשייך אותו.</p>
+      </a>
       <a class="card" href="רווחים-ראויים-לחלוקה.html" style="display:block; margin-bottom:24px;">
         <p class="eyebrow" style="margin-bottom:8px;">נובמבר 2026</p>
         <h3>רר"ל בשינויי מבנה: עיקרון פשוט, הוראות מפוזרות</h3>
@@ -122,42 +180,6 @@
       </a>
     </div>
 
-    <div class="divider" style="margin-top:70px;"><span>פורסם במקומות נוספים</span></div>
-
-    <!--
-      FEATURED-ELSEWHERE-START
-      לקישור לתוכן שפורסם באתר, פודקאסט או פלטפורמה אחרת:
-      להוסיף כרטיסייה בתוך <div id="featured-elsewhere">, לפי הדוגמה:
-
-      <a class="card" href="https://the-source-url.com" target="_blank" rel="noopener" style="display:block; margin-bottom:24px;">
-        <p class="eyebrow" style="margin-bottom:8px;">שם הפלטפורמה &middot; חודש שנה</p>
-        <h3>כותרת התוכן</h3>
-        <p>תקציר קצר.</p>
-      </a>
-      FEATURED-ELSEWHERE-END
-    -->
-    <div id="featured-elsewhere">
-      <a class="card" href="https://www.ynet.co.il/capital/article/s1wndig2zx" target="_blank" rel="noopener" style="display:block; margin-bottom:24px;">
-        <p class="eyebrow" style="margin-bottom:8px;">ynet קפיטל &middot; אוקטובר 2026</p>
-        <h3>שוקלים רילוקיישן? אלה הם שיקולי המס וההשקעה שאתם צריכים להכיר</h3>
-        <p>על ניתוק תושבות, מס יציאה, ההחלטה אם למכור את תיק ההשקעות לפני המעבר, והשפעת הרילוקיישן על אופציות ומניות חסומות לפי סעיף 102.</p>
-      </a>
-      <a class="card" href="https://www.linkedin.com/pulse/ua-funding-where-innovative-financing-meets-tax-law-lior-gal-zt48f/" target="_blank" rel="noopener" style="display:block; margin-bottom:24px;">
-        <p class="eyebrow" style="margin-bottom:8px;">LinkedIn &middot; יוני 2026</p>
-        <h3>UA Funding - Where Innovative Financing Meets Tax Law</h3>
-        <p>על ההיבטים המיסויים של מודל מימון ה-User Acquisition הצומח בתעשיית הגיימינג והאפליקציות, ואיפה נוטה להסתתר החשיפה המיסויית.</p>
-      </a>
-      <a class="card" href="https://www.jpost.com/business-and-innovation/banking-and-finance/article-895055" target="_blank" rel="noopener" style="display:block; margin-bottom:24px;">
-        <p class="eyebrow" style="margin-bottom:8px;">The Jerusalem Post &middot; מאי 2026</p>
-        <h3>How Israel's New Reporting Rules Change the Olim Tax Holiday</h3>
-        <p>כתבת דעה שנכתבה יחד עם Anat Shavit, על ביטול פטור הדיווח על נכסים בחו״ל לעולים חדשים והשלכותיו על פטור המס לעשר שנים.</p>
-      </a>
-      <a class="card" href="https://www.calcalist.co.il/calcalistech/article/hkifu4o5jl" target="_blank" rel="noopener" style="display:block; margin-bottom:24px;">
-        <p class="eyebrow" style="margin-bottom:8px;">כלכליסט &middot; פברואר 2025</p>
-        <h3>הגזר שבגזרות – הזדמנות חדשה לעסקאות במגזר ההייטק?</h3>
-        <p>כתבה שנכתבה יחד עם עמרי דוידוב, על התיקון החקיקתי המקל על מיזוגים בהחלפת מניות בין חברות פרטיות בהייטק.</p>
-      </a>
-    </div>
 
   </div>
 </section>
