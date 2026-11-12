@@ -47,6 +47,20 @@
   }
 }
 </script>
+<style>
+  /* Press band: "As featured in" — compact row shown first on the Insights page */
+  .press-band { padding: 0 0 56px; }
+  .press-band .divider { justify-content: center; margin-bottom: 22px; }
+  .press-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  .press-card { display: flex; flex-direction: column; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 22px 20px; transition: box-shadow .2s ease, border-color .2s ease; }
+  .press-card:hover { border-color: #B8B8BE; box-shadow: 0 6px 22px rgba(0,0,0,0.07); }
+  .press-card .outlet { font-size: 19px; font-weight: 700; color: var(--ink); letter-spacing: -0.01em; margin: 0 0 2px; }
+  .press-card .press-date { font-size: 13px; color: var(--gray); margin: 0 0 12px; }
+  .press-card .press-title { font-size: 15px; line-height: 1.45; color: var(--ink); margin: 0; }
+  .articles-section { padding-top: 24px; }
+  @media (max-width: 960px) { .press-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 520px) { .press-grid { grid-template-columns: 1fr; } .press-card { padding: 18px 18px 16px; } }
+</style>
 </head>
 <body>
 
@@ -67,7 +81,7 @@
   </div>
 </header>
 
-<section class="page-banner">
+<section class="page-banner" style="padding-bottom:36px;">
   <div class="wrap">
     <p class="eyebrow">Insights</p>
     <h1>Notes on Israeli &amp; international tax</h1>
@@ -75,8 +89,47 @@
   </div>
 </section>
 
-<section>
+<section class="press-band">
   <div class="wrap">
+    <div class="divider"><span>As featured in</span></div>
+    <!--
+      PRESS-START
+      For content published in a newspaper, site or other platform: add a card at the start of <div class="press-grid">:
+      <a class="press-card" href="https://the-source-url.com" target="_blank" rel="noopener">
+        <p class="outlet">Outlet name</p>
+        <p class="press-date">Month Year</p>
+        <p class="press-title" dir="auto">Content title</p>
+      </a>
+      PRESS-END
+    -->
+    <div class="press-grid">
+      <a class="press-card" href="https://www.ynet.co.il/capital/article/s1wndig2zx" target="_blank" rel="noopener">
+        <p class="outlet">Ynet Capital</p>
+        <p class="press-date">October 2026</p>
+        <p class="press-title" dir="auto">Considering Relocation? The Tax and Investment Issues You Need to Know (Hebrew)</p>
+      </a>
+      <a class="press-card" href="https://www.jpost.com/business-and-innovation/banking-and-finance/article-895055" target="_blank" rel="noopener">
+        <p class="outlet">The Jerusalem Post</p>
+        <p class="press-date">May 2026</p>
+        <p class="press-title" dir="auto">How Israel's New Reporting Rules Change the Olim Tax Holiday</p>
+      </a>
+      <a class="press-card" href="https://www.calcalist.co.il/calcalistech/article/hkifu4o5jl" target="_blank" rel="noopener">
+        <p class="outlet">Calcalist</p>
+        <p class="press-date">February 2025</p>
+        <p class="press-title" dir="auto">A New Opportunity for High-Tech M&amp;A? (Hebrew)</p>
+      </a>
+      <a class="press-card" href="https://www.linkedin.com/pulse/ua-funding-where-innovative-financing-meets-tax-law-lior-gal-zt48f/" target="_blank" rel="noopener">
+        <p class="outlet">LinkedIn</p>
+        <p class="press-date">June 2026</p>
+        <p class="press-title" dir="auto">UA Funding - Where Innovative Financing Meets Tax Law</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="articles-section">
+  <div class="wrap">
+    <div class="divider"><span>Articles</span></div>
 
     <!--
       ARTICLES-LIST-START
@@ -95,6 +148,11 @@
       ARTICLES-LIST-END
     -->
     <div id="article-list">
+      <a class="card" href="interested-public-arrangement.html" style="display:block; margin-bottom:24px;">
+        <p class="eyebrow" style="margin-bottom:8px;">November 2026</p>
+        <h3>&quot;Interested Public&quot;: A Tax Arrangement You Won&#x27;t Find in the Ordinance</h3>
+        <p>In a share exchange under Section 104H the tax is deferred only for 24 and 48 months, and the shares are held by a trustee. The &quot;interested public&quot; arrangement defers the tax until the actual sale, with no trustee – and who can be included in it.</p>
+      </a>
       <a class="card" href="distributable-earnings-in-restructuring.html" style="display:block; margin-bottom:24px;">
         <p class="eyebrow" style="margin-bottom:8px;">November 2026</p>
         <h3>Distributable Earnings in Business Restructuring: One Principle, Scattered Rules</h3>
@@ -122,42 +180,6 @@
       </a>
     </div>
 
-    <div class="divider" style="margin-top:70px;"><span>Featured Elsewhere</span></div>
-
-    <!--
-      FEATURED-ELSEWHERE-START
-      To link to content published on another site, podcast, or platform:
-      add a card inside <div id="featured-elsewhere">:
-
-      <a class="card" href="https://the-source-url.com" target="_blank" rel="noopener" style="display:block; margin-bottom:24px;">
-        <p class="eyebrow" style="margin-bottom:8px;">Platform Name &middot; Month Year</p>
-        <h3>Content title</h3>
-        <p>Short summary.</p>
-      </a>
-      FEATURED-ELSEWHERE-END
-    -->
-    <div id="featured-elsewhere">
-      <a class="card" href="https://www.ynet.co.il/capital/article/s1wndig2zx" target="_blank" rel="noopener" style="display:block; margin-bottom:24px;">
-        <p class="eyebrow" style="margin-bottom:8px;">Ynet Capital &middot; October 2026</p>
-        <h3>Considering Relocation? The Tax and Investment Issues You Need to Know (Hebrew)</h3>
-        <p>On severing Israeli tax residency, the exit tax, whether to sell an investment portfolio before moving, and how relocation affects Section 102 options and RSUs. Article in Hebrew.</p>
-      </a>
-      <a class="card" href="https://www.linkedin.com/pulse/ua-funding-where-innovative-financing-meets-tax-law-lior-gal-zt48f/" target="_blank" rel="noopener" style="display:block; margin-bottom:24px;">
-        <p class="eyebrow" style="margin-bottom:8px;">LinkedIn &middot; June 2026</p>
-        <h3>UA Funding - Where Innovative Financing Meets Tax Law</h3>
-        <p>On the tax considerations behind the growing User Acquisition funding model in the gaming and app industry, and where the exposure tends to hide.</p>
-      </a>
-      <a class="card" href="https://www.jpost.com/business-and-innovation/banking-and-finance/article-895055" target="_blank" rel="noopener" style="display:block; margin-bottom:24px;">
-        <p class="eyebrow" style="margin-bottom:8px;">The Jerusalem Post &middot; May 2026</p>
-        <h3>How Israel's New Reporting Rules Change the Olim Tax Holiday</h3>
-        <p>Op-ed co-written with Anat Shavit on Israel's removal of the foreign-asset reporting exemption for new immigrants, and its effect on their ten-year tax holiday.</p>
-      </a>
-      <a class="card" href="https://www.calcalist.co.il/calcalistech/article/hkifu4o5jl" target="_blank" rel="noopener" style="display:block; margin-bottom:24px;">
-        <p class="eyebrow" style="margin-bottom:8px;">Calcalist &middot; February 2025</p>
-        <h3>A New Opportunity for High-Tech M&amp;A? (Hebrew)</h3>
-        <p>Co-written with Omri Davidov on a legislative amendment easing share-exchange mergers between private companies, aimed at encouraging high-tech acquisitions.</p>
-      </a>
-    </div>
 
   </div>
 </section>
