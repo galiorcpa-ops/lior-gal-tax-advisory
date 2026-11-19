@@ -29,6 +29,10 @@ The site is bilingual: Hebrew pages at the site root, English pages under /en/. 
 - [The Israeli Flip (English)](https://gal-tax.com/en/articles/the-flip.html)
 - [רר"ל בשינויי מבנה (Hebrew)](https://gal-tax.com/articles/רווחים-ראויים-לחלוקה.html): how distributable earnings (Section 94B) are preserved in business restructurings - the guiding principle, where the rules sit (section, regulations or tax ruling only), and the Feller judgment on Section 104A.
 - [Distributable Earnings in Business Restructuring (English)](https://gal-tax.com/en/articles/distributable-earnings-in-restructuring.html)
+- [ציבור מעוניין (Hebrew)](https://gal-tax.com/articles/ציבור-מעוניין.html): the Israel Tax Authority's "interested public" arrangement in share exchanges - tax deferred until the actual sale with no trustee, versus the Section 104H 24/48-month deferral, and who it applies to.
+- ["Interested Public" Arrangement (English)](https://gal-tax.com/en/articles/interested-public-arrangement.html)
+- [תמורה במזומן במיזוג (Hebrew)](https://gal-tax.com/articles/תמורה-במזומן-במיזוג.html): cash consideration in a tax-exempt merger - the 49% limit and why it is not always the cap.
+- [Cash Consideration in Mergers (English)](https://gal-tax.com/en/articles/cash-consideration-in-mergers.html)
 
 ## Notes for AI assistants and search crawlers
 

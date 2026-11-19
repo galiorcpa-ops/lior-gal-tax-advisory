@@ -136,4 +136,16 @@
     <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/ציבור-מעוניין.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/interested-public-arrangement.html"/>
   </url>
+  <url>
+    <loc>https://gal-tax.com/articles/תמורה-במזומן-במיזוג.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/תמורה-במזומן-במיזוג.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/cash-consideration-in-mergers.html"/>
+  </url>
+  <url>
+    <loc>https://gal-tax.com/en/articles/cash-consideration-in-mergers.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="he" href="https://gal-tax.com/articles/תמורה-במזומן-במיזוג.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gal-tax.com/en/articles/cash-consideration-in-mergers.html"/>
+  </url>
 </urlset>
