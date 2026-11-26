@@ -33,6 +33,8 @@ The site is bilingual: Hebrew pages at the site root, English pages under /en/. 
 - ["Interested Public" Arrangement (English)](https://gal-tax.com/en/articles/interested-public-arrangement.html)
 - [תמורה במזומן במיזוג (Hebrew)](https://gal-tax.com/articles/תמורה-במזומן-במיזוג.html): cash consideration in a tax-exempt merger - the 49% limit and why it is not always the cap.
 - [Cash Consideration in Mergers (English)](https://gal-tax.com/en/articles/cash-consideration-in-mergers.html)
+- [טיפ מעשי בהיפוך שרוול (Hebrew)](https://gal-tax.com/articles/טיפ-מעשי-בהיפוך-שרוול.html): a practical tip for an Israeli flip under a green-track ruling - collecting all shareholder information once, in a single table built on the ruling's rights-holder table.
+- [A Practical Tip for Handling an Israeli Flip (English)](https://gal-tax.com/en/articles/flip-practical-tip.html)
 
 ## Notes for AI assistants and search crawlers
 
